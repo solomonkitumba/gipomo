@@ -1,0 +1,38 @@
+--- a/better_exposed_filters_exposed_form_plugin.inc
++++ b/better_exposed_filters_exposed_form_plugin.inc
+@@ -739,7 +739,7 @@ Title Desc|Z -> A</pre> Leave the replacement value blank to remove an option al
+             // the view results appear on. This can cause problems with
+             // select_as_links options as they will use the wrong path. We
+             // provide a hint for theme functions to correct this.
+-            if (!empty($this->display->display_options['exposed_block'])) {
++            if (!empty($this->display->display_options['exposed_block']) && isset($this->display->display_options['path'])) {
+               $form['sort_bef_combine']['#bef_path'] = $this->display->display_options['path'];
+             }
+             break;
+@@ -793,7 +793,7 @@ Title Desc|Z -> A</pre> Leave the replacement value blank to remove an option al
+           // view results appear on. This can cause problems with
+           // select_as_links options as they will use the wrong path. We provide
+           // a hint for theme functions to correct this.
+-          if (!empty($this->display->display_options['exposed_block'])) {
++          if (!empty($this->display->display_options['exposed_block']) && isset($this->display->display_options['path'])) {
+             $form['sort_by']['#bef_path'] = $this->display->display_options['path'];
+             $form['sort_order']['#bef_path'] = $this->display->display_options['path'];
+           }
+@@ -862,7 +862,7 @@ Title Desc|Z -> A</pre> Leave the replacement value blank to remove an option al
+             // the view results appear on. This can cause problems with
+             // select_as_links options as they will use the wrong path. We
+             // provide a hint for theme functions to correct this.
+-            if (!empty($this->display->display_options['exposed_block'])) {
++            if (!empty($this->display->display_options['exposed_block']) && isset($this->display->display_options['path'])) {
+               $form['items_per_page']['#bef_path'] = $this->display->display_options['path'];
+             }
+           }
+@@ -1150,7 +1150,7 @@ Title Desc|Z -> A</pre> Leave the replacement value blank to remove an option al
+           // the view results appear on. This can cause problems with
+           // select_as_links options as they will use the wrong path. We provide
+           // a hint for theme functions to correct this.
+-          if (!empty($this->display->display_options['exposed_block'])) {
++          if (!empty($this->display->display_options['exposed_block']) && isset($this->display->display_options['path'])) {
+             $form[$field_id]['#bef_path'] = $this->display->display_options['path'];
+           }
+           break;

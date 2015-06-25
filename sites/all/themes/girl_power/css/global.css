@@ -1,0 +1,357 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+.site-name,
+h1.site-name, h2.site-name {
+font-family: "Raleway";
+font-weight: normal;
+font-size: 1.9em;
+}
+
+/*header*/
+
+#page-title {
+  text-align: center;
+  font-family: raleway;
+font-size: 1.6em;
+line-height: 1em;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: 2px;
+font-weight: 400;
+font-style: normal;
+margin-top: 5px;
+}
+
+.front #page-title,
+.breadcrumb,
+#first-time {
+  display: none;
+}
+
+/* MAIN NAVIGATION*/
+
+.navigation {
+  font-family: "Raleway";
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav.navigation ul li a {
+border-right: 1px solid gainsboro;
+padding-right: 12px;
+color: white;
+}
+
+div#zone-menu {
+  background: blue;
+  padding-top: 8px;
+  border-bottom: 2px solid orange;
+} 
+
+#main-menu a {
+  text-decoration: none;
+
+}
+
+#block-views-slideshow-block
+.view-footer {
+  text-align: center;
+  background: rgb(220, 220, 220);
+  padding: 5px 0 0 5px;
+}
+
+body{
+	font-family: "Raleway";
+}
+
+
+/*SLIDE*/
+
+div#block-views-slideshow-block {
+margin-top: 7px;
+}
+div#block-views-slideshow-block-2  img,
+div#block-views-slideshow-block img {
+padding: 2px;
+border: 1px solid gainsboro;
+}
+
+/*SUPPORT*/
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-page {
+border-top:1px solid gainsboro;
+border-bottom:1px solid gainsboro;
+margin-bottom: 5px
+}
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-page table {
+width: 1180px;
+margin-left: auto;
+margin-right: auto;
+border:none;
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-page 
+.views-field.views-field-field-profile-picture {
+margin-left: 62px;
+}
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-page
+.views-field.views-field-field-profile-picture img {
+border-radius: 85px;
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-page
+.views-label.views-label-field-project {
+  color:black;
+
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-page
+.views-field.views-field-field-project {
+  text-align: center;
+  text-transform: capitalize;
+  color:orange;
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-page
+.views-field.views-field-title {
+  text-align: center;
+  color: blue;
+   text-transform: capitalize;
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-page
+.views-field.views-field-title a{
+  color: blue;
+ 
+  text-decoration: none;
+}
+
+
+/*TEAM PAGE*/
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-page_1 {
+border-top: 1px solid gainsboro;
+border-bottom: 1px solid gainsboro;
+margin-bottom: 5px;
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-page_1
+.views-field.views-field-field-name {
+text-align: center;
+color: blue;
+text-transform: capitalize;
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-page_1
+.views-field.views-field-title {
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*CONTACT US PAGE*/
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-block_1
+.view-header {
+text-align: center;
+font-size: 1.4em;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: bold;
+}
+
+label{
+	font-weight: normal;
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-block_1 table {
+  border: none;
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-block_1
+.views-field.views-field-title {
+text-transform: capitalize;
+font-size: 1.3em;
+background:#f7931d;
+color:white;
+padding: 4px;
+text-align: center;
+}
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-block_1
+.views-field.views-field-body {
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: 1px;
+}
+
+.form-item.webform-component.webform-component-textarea.webform-component--message {
+width: 496px;
+}
+
+input.webform-submit.button-primary.form-submit{
+padding: 1em 2.5em;
+background-color: #272727;
+font-size: 12px;
+line-height: 1em;
+font-weight: normal;
+font-style: normal;
+text-transform: uppercase;
+text-transform: none;
+}
+
+input[type="submit"]{
+	background: #272727;
+	color: white;
+    border-radius: 0;
+    text-shadow: none;
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-block_1 table {
+  border: none;
+}
+
+tr:hover td, tr.even:hover td.active, tr.odd:hover td.active{
+  background: white
+}
+
+div#block-views-beneficiaries-block-2 h2 {
+font-size: 1.3em;
+font-weight: normal;
+}
+
+/*ABOUT US*/
+
+article#node-page-1 {
+text-align: center;
+margin-top: 7px;
+}
+
+.view.view-slideshow.view-id-slideshow.view-display-id-block_2
+ .view-footer {
+  text-align: center;
+  font-size: 2.1em;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 21px;
+  color: blue;
+}
+
+/*TO DO */
+
+table.views-view-grid.cols-4 {
+border: none;
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-block_3
+.views-field.views-field-title {
+text-align: center;
+font-weight: 400;
+font-size: 2em;
+color: blue;
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-block_3
+.views-field.views-field-body {
+text-align: center;
+}
+
+#block-views-beneficiaries-block-3
+h2.block-title {
+text-align: center;
+font-weight: 400;
+font-size: 2em;
+color: blue;
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-block_3
+.views-field.views-field-field-icon img {
+margin-left: 137px;
+margin-bottom: 10px;
+
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-block_3
+.view-header {
+text-align: center;
+font-size: 1.5em;
+line-height: 1.3em;
+text-transform: capitalize;
+text-decoration: none;
+letter-spacing: 2px;
+font-weight: 400;
+font-style: normal;
+}
+
+/*SUCCESS STORIES*/
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-page_2
+.views-field.views-field-field-picture {
+float: left;
+margin-right: 3%;
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-page_2
+.views-field.views-field-field-picture img{
+  padding:3px;
+  border:1px solid gainsboro;
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-page_2
+.views-field.views-field-title {
+font-size: 1.5em;
+text-transform: capitalize;
+color: blue;
+}
+
+.view.view-beneficiaries.view-id-beneficiaries.view-display-id-page_2 table td {
+border-bottom: 1px solid gainsboro;
+}
+
+/*footer*/
+.section-footer{
+
+  width: 100%;
+   background-color: #171717;
+   position: relative;
+   color:white;
+   padding:7px;
+}
+
+/*footer menu*/
+
+section#block-menu-menu-footer-menu{
+  padding:5px;
+  border-right:1px solid white;
+}
+
+section#block-menu-menu-footer-menu .block-title {
+  display: none;
+}
+
+section#block-menu-menu-footer-menu ul li {
+  list-style: none;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+section#block-menu-menu-footer-menu ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+/*postscript*/
+
+div#zone-postscript-wrapper {
+background: #333;
+border-top:3px solid orange;
+padding-top:4px;
+}
+
+div#zone-menu {
+/* background: blue; */
+padding-top: 8px;
+}
